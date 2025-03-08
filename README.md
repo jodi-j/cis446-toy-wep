@@ -11,3 +11,18 @@ The `encrypt()` function translates the plaintext string into ASCII and performs
 The `decrypt()` function takes the output from the `encrypt()` function and performs an XOR operation on the ciphertext using the generated keystream values. 
 
 The outputs of all three functions are ultimately output to the terminal for the user.
+
+In order to run this program on your local machine, please follow these steps:
+
+1. Clone the Repository
+```bash
+   git clone https://github.com/jodi-j/cis446-toy-wep
+   cd cis446=toy-wep
+```
+
+2. Start the program:
+```bash
+    python toy-wep.py
+```
+
+3. Follow the instructions printed to the terminal!
